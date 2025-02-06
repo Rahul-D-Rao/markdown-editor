@@ -1,0 +1,16 @@
+/markdown-editor
+  ├── /backend
+  │    ├── app.py                # Flask backend code
+  │    ├── requirements.txt      # Python dependencies
+  │
+  ├── /frontend
+  │    ├── /public
+  │    │    └── index.html       # React HTML template
+  │    ├── /src
+  │    │    ├── index.js         # React main component
+  │    │    └── styles.css       # Custom styles for React app
+  │    ├── package.json          # React dependencies and configuration
+  │    ├── .gitignore            # Git ignore file for frontend
+  │
+  ├── requirements.txt           # Python dependencies (backend)
+  ├── README.md                  # Project documentation
