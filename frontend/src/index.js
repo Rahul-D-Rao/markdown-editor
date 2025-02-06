@@ -14,10 +14,6 @@ const App = () => {
     setHtmlText(marked(markdownValue));
   };
 
-  const handlePreviewClick = () => {
-    alert("This is a preview-only area!");
-  };
-
   const toggleMode = () => {
     setIsDarkMode(!isDarkMode);
 
@@ -46,7 +42,7 @@ const App = () => {
           />
         </div>
         {/* Preview Section */}
-        <div className="preview-section" onClick={handlePreviewClick}>
+        <div className="preview-section">
           <div
             className="output"
             dangerouslySetInnerHTML={{ __html: htmlText }}
