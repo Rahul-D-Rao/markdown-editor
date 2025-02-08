@@ -26,19 +26,16 @@ The project follows the structure below:
   │    │    ├── index.js         # React main component
   │    │    └── styles.css       # Custom styles for React app
   │    ├── package.json          # React dependencies and configuration
-  │    ├── .gitignore            # Git ignore file for frontend
-  │
-  ├── requirements.txt           # Python dependencies (backend)
-  ├── README.md                  # Project documentation
+  └── README.md                  # Project documentation
 ```
 
 ### `/frontend`
 
 This is the React part of the project where the user interface is built.
 
-- `index.html`: Contains the root HTML structure for the React application.
-- `index.js`: This file contains the main React logic for rendering the Markdown editor, HTML preview, and toggling Dark and Light modes.
-- `styles.css`: Contains the custom styles that define the look and feel of the application.
+- `public/index.html`: Contains the root HTML structure for the React application.
+- `src/index.js`: This file contains the main React logic for rendering the Markdown editor, HTML preview, and toggling Dark and Light modes.
+- `src/styles.css`: Contains the custom styles that define the look and feel of the application.
 
 ### `/backend`
 
